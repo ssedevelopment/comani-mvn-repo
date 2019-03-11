@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>net.ssehub.comani</groupId>
+  <groupId>net.ssehub.comani.extractors.git</groupId>
   <artifactId>comani-extractor-git</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20190305.133204</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20190311.131950</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20190305133204</lastUpdated>
+    <lastUpdated>20190311131950</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20190305.133204-4</value>
-        <updated>20190305133204</updated>
+        <value>0.0.1-20190311.131950-1</value>
+        <updated>20190311131950</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20190305.133204-4</value>
-        <updated>20190305133204</updated>
+        <value>0.0.1-20190311.131950-1</value>
+        <updated>20190311131950</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

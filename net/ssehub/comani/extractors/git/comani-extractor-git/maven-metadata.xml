@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>net.ssehub.comani</groupId>
+  <groupId>net.ssehub.comani.extractors.git</groupId>
   <artifactId>comani-extractor-git</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190305133204</lastUpdated>
+    <lastUpdated>20190311131950</lastUpdated>
   </versioning>
 </metadata>
