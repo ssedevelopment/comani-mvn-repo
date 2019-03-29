@@ -85,25 +85,21 @@
 					</execution>
 				</executions>
 			</plugin>
+			<!-- Run jacoco test coverage during test phase -->
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.5.10.201208310627</version>
-				<configuration>
-					<skip>${maven.test.skip}</skip>
-					<output>file</output>
-					<append>true</append>
-				</configuration>
+				<version>0.8.2</version>
 				<executions>
 					<execution>
-						<id>jacoco-initialize</id>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
 					</execution>
+					<!-- attached to Maven test phase -->
 					<execution>
-						<id>jacoco-site</id>
-						<phase>verify</phase>
+						<id>report</id>
+						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
 						</goals>
