@@ -17,8 +17,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>comani-extractor-git</module>
-		<!-- <module>comani-extractor-svn</module> -->
+		<module>../../GitCommitExtractor</module>
+		<module>../../SvnCommitExtractor</module>
 	</modules>
 
 	<dependencies>
@@ -29,17 +29,4 @@
 			<version>[1,)</version>
 		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-		    <id>mvn-repo</id>
-		    <url>https://raw.githubusercontent.com/Maze7/comani-mvn-repo/master</url>
-		    <releases>
-		    	<enabled>true</enabled>
-		    </releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 </project>
